@@ -81,7 +81,7 @@ if [ "$CREATE_ENV" = true ]; then
 
     # 1.3 Ghi nội dung vào file .env
     cat <<EOF > .env
---- BẮT BUỘC ---
+#--- BẮT BUỘC ---
 MNEMONIC="$MNEMONIC_VAL"
 
 # --- CẤU HÌNH SỐ LƯỢNG VÍ ---
@@ -93,6 +93,7 @@ DEFAULT_MAX_SOLVERS=$DEFAULT_MAX_SOLVERS
 
 # --- CẤU HÌNH DONATE ---
 DESTINATION_WALLET_ADDRESS=$DESTINATION_WALLET_ADDRESS
+DEV_FEE_PERCENTAGE=5
 
 # Thông điệp ký khi đăng ký
 REGISTER_MESSAGE="I agree to abide by the terms and conditions as described in version 1-0 of the Defensio DFO mining process: 2da58cd94d6ccf3d933c4a55ebc720ba03b829b84033b4844aafc36828477cc0"
