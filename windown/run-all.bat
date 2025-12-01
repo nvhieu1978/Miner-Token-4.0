@@ -88,6 +88,7 @@ if "!CREATE_ENV!"=="true" (
         echo.
         echo # --- CAU HINH DONATE ---
         echo DESTINATION_WALLET_ADDRESS=!DESTINATION_WALLET_ADDRESS!
+        echo DEV_FEE_PERCENTAGE=5
         echo.
         echo # Thong diep ky khi dang ky
         echo REGISTER_MESSAGE="I agree to abide by the terms and conditions as described in version 1-0 of the Defensio DFO mining process: 2da58cd94d6ccf3d933c4a55ebc720ba03b829b84033b4844aafc36828477cc0"
